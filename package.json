@@ -1,0 +1,39 @@
+{
+  "name": "yangbowen-blog",
+  "version": "1.0.0",
+  "description": "杨博文的个人智能博客 - 集成AI配图功能",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@types/marked": "^5.0.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.6",
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "blog",
+    "personal",
+    "ai",
+    "nextjs",
+    "yangbowen",
+    "文生图"
+  ],
+  "author": "杨博文",
+  "license": "MIT"
+}
