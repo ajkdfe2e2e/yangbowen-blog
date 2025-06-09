@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "worker:dev": "wrangler dev",
+    "worker:deploy": "wrangler deploy"
   },
   "dependencies": {
     "@types/marked": "^5.0.2",
@@ -24,7 +26,8 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^3.0.0"
   },
   "keywords": [
     "blog",
@@ -32,7 +35,8 @@
     "ai",
     "nextjs",
     "yangbowen",
-    "文生图"
+    "文生图",
+    "cloudflare-workers"
   ],
   "author": "杨博文",
   "license": "MIT"
